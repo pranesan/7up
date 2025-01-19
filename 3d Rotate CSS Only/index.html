@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7up portfolio</title>
+    <link rel="icon" href="D:\juice\3d Rotate CSS Only\images\image 3.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <section class="home" id="home">
+        <div class="left">
+            <h1>SEASONS SWEETINGS</h1>
+            <p>"The crisp taste of 7Up: because life's</p>
+            <p>too short for flat moments."</p>
+            <div class="tins-container">
+                <img src="D:\juice\3d Rotate CSS Only\images\7up-cherry.webp" alt="Tin 1" class="tin">
+                <img src="D:\juice\3d Rotate CSS Only\images\zero-sugar.jpg" alt="Tin 2" class="tin">
+                <img src="D:\juice\3d Rotate CSS Only\images\7up-cherry.jpg" alt="Tin 3" class="tin">
+            </div>
+            <button class="see-recipes-btn" onclick="scrollToBanner()">See All Recipes</button>
+        </div>
+        
+        <div class="video-container">
+            <video src="D:\juice\3d Rotate CSS Only\images\WhatsApp Video 2025-01-19 at 11.16.51_0fba182b.mp4" id="video-slider" loop autoplay muted></video>
+        </div>  
+    </section>      
+        <div class="author">
+            <img src="D:\juice\3d Rotate CSS Only\images\image 3.png" alt="logo" class="logo1">
+        </div>
+    </header>
+    <div id="banner-section1" class="banner">
+        <div class="product">
+            <div class="soda" style="--url: url(images/bg.png)">
+            </div>
+            <div class="soda" style="--url: url(images/bg2.png)">
+            </div>
+        </div>
+
+
+        <div class="rock">
+            <img src="images/rock1.png" alt="">
+            <img src="images/rock2.png" alt="">
+            <img src="images/rock3.png" alt="">
+        </div>
+    </div>
+    <script>
+        function scrollToBanner() {
+        
+        const recipeSection = document.getElementById('recipes');
+        
+        
+        recipeSection.scrollIntoView({ behavior: 'smooth' });
+    }
+    
+    </script>
+    <script>
+        function scrollToContact() {
+        
+        const recipeSection = document.getElementById('contact-section');
+        
+        
+        recipeSection.scrollIntoView({ behavior: 'smooth' });
+    }
+    
+    </script>
+    <section id="recipes" style="background-color:#c6cebe; padding: 50px 0;">
+        <h2 style="text-align: center; color: white; font-size: 36px; margin-bottom: 30px;font-style: italic;">Recipes</h2>
+        <div class="recipe-container" style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px;">
+            <!-- Recipe Card 1 -->
+            <div class="recipe-card" style="background: white; border-radius: 10px; padding: 20px; width: 300px; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+                <img src="D:\juice\3d Rotate CSS Only\images\juice1.jpg" alt="Recipe 1" style="width: 100%; border-radius: 10px;">
+                <h3 style="color: #333; margin: 15px 0;">Cherry Soda Delight</h3>
+                <p style="color: #555;">A refreshing blend of 7Up cherry and fresh lime.</p>
+            </div>
+    
+            <!-- Recipe Card 2 -->
+            <div class="recipe-card" style="background: white; border-radius: 10px; padding: 20px; width: 300px; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+                <img src="D:\juice\3d Rotate CSS Only\images\juice3.jpg" alt="Recipe 2" style="width: 100%; border-radius: 10px;">
+                <h3 style="color: #333; margin: 15px 0;">Zero Sugar Bliss</h3>
+                <p style="color: #555;">A guilt-free soda cocktail with fresh mint.</p>
+            </div>
+    
+            <!-- Recipe Card 3 -->
+            <div class="recipe-card" style="background: white; border-radius: 10px; padding: 20px; width: 300px; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+                <img src="D:\juice\3d Rotate CSS Only\images\GXMtB6LWMAAQXad.jpg" alt="Recipe 3" style="width: 100%; border-radius: 10px;">
+                <h3 style="color: #333; margin: 15px 0;">Zesty Citrus Punch</h3>
+                <p style="color: #555;">A tangy soda mix with orange and lemon zest.</p>
+            </div>
+
+            <div class="recipe-card" style="background: white; border-radius: 10px; padding: 20px; width: 300px; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+                <img src="D:\juice\3d Rotate CSS Only\images\juice5.jpg" alt="Recipe 3" style="width: 100%; border-radius: 10px;">
+                <h3 style="color: #333; margin: 15px 0;">Zesty Citrus Punch</h3>
+                <p style="color: #555;">A tangy soda mix with orange and lemon zest.</p>
+            </div>
+
+            <div class="recipe-card" style="background: white; border-radius: 10px; padding: 20px; width: 300px; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+                <img src="D:\juice\3d Rotate CSS Only\images\juice4.jpg" alt="Recipe 3" style="width: 100%; border-radius: 10px;">
+                <h3 style="color: #333; margin: 15px 0;">Zesty Citrus Punch</h3>
+                <p style="color: #555;">A tangy soda mix with orange and lemon zest.</p>
+            </div>
+
+            <div class="recipe-card" style="background: white; border-radius: 10px; padding: 20px; width: 300px; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+                <img src="D:\juice\3d Rotate CSS Only\images\juice 6.jpg" alt="Recipe 3" style="width: 100%; border-radius: 10px;">
+                <h3 style="color: #333; margin: 15px 0;">Zesty Citrus Punch</h3>
+                <p style="color: #555;">A tangy soda mix with orange and lemon zest.</p>
+            </div>
+        </div>
+    </section>
+    <section id="our-services">
+        <!-- Background Video -->
+        <div class="background-video">
+            <video src="D:\juice\3d Rotate CSS Only\images\1109272_1080p_Typing_1920x1080.mp4" autoplay muted loop></video>
+        </div>
+    
+        <h2 class="services-heading">Our Services</h2>
+        <div class="services-container">
+            <div class="service-card">
+                <img src="D:\juice\3d Rotate CSS Only\images\7245083.png" alt="Free Shipping">
+                <h3>Free Shipping</h3>
+                <p>Enjoy free shipping on all orders, no minimum required.</p>
+            </div>
+    
+            <!-- Money Guarantee Service Card -->
+            <div class="service-card">
+                <img src="D:\juice\3d Rotate CSS Only\images\11320730.png" alt="Money Guarantee">
+                <h3>Money Guarantee</h3>
+                <p>We guarantee the best value for your money, or your money back.</p>
+            </div>
+    
+            <!-- 24/7 Support Service Card -->
+            <div class="service-card">
+                <img src="D:\juice\3d Rotate CSS Only\images\4230745.png" alt="24/7 Support">
+                <h3>24/7 Support</h3>
+                <p>We're here to help anytime, day or night, with 24/7 support.</p>
+            </div>
+    
+            <!-- Secure Payment Service Card -->
+            <div class="service-card">
+                <img src="D:\juice\3d Rotate CSS Only\images\secre-removebg-preview.png" alt="Secure Payment">
+                <h3>Secure Payment</h3>
+                <p>Your transactions are safe with our secure payment system.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about-us">
+        <div class="about-container">
+            <!-- Left Side: Logo -->
+            <div class="about-logo">
+                <img src="D:\juice\3d Rotate CSS Only\images\image 3.png" alt="7Up Logo" class="logo">
+            </div>
+    
+            <!-- Right Side: Content -->
+            <div class="about-content">
+                <h2>About Us</h2>
+                <p>7UP is a popular lemon-lime soda known for its crisp and refreshing taste. Founded in 1929, 7UP has become one of the leading carbonated soft drinks worldwide. Whether you enjoy it on its own or in a cocktail, 7UP is the perfect companion to make every moment a little brighter.</p>
+                <p>We believe that life is too short for flat moments, and that’s why we bring you the effervescent joy of 7UP, a drink that’s as refreshing as it is lively.</p>
+                <button class="contact-btn" onclick="scrollToContact()">Contact Us</button>
+            </div>
+           
+        </div>
+    </section>
+    <section id="reviews">
+        <h2 class="reviews-heading">Customer Reviews</h2>
+        <div class="reviews-container">
+            <!-- Review Card 1 -->
+            <div class="review-card">
+                <div class="review-profile">
+                    <img src="D:\juice\3d Rotate CSS Only\images\1723165824259.jpeg" alt="Profile 1" class="profile-img">
+                    <h3>Saran</h3>
+                </div>
+                <div class="review-rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9734;</span>
+                </div>
+                <p>"7Up is my go-to drink for a refreshing and bubbly experience. It's perfect for any occasion!"</p>
+            </div>
+    
+            <!-- Review Card 2 -->
+            <div class="review-card">
+                <div class="review-profile">
+                    <img src="D:\juice\3d Rotate CSS Only\images\sogil.jpeg" alt="Profile 2" class="profile-img">
+                    <h3>Sogil murugan</h3>
+                </div>
+                <div class="review-rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9734;</span>
+                </div>
+                <p>"I love the crisp taste of 7Up. It's light and refreshing, and I can't get enough of it!"</p>
+            </div>
+    
+            <!-- Review Card 3 -->
+            <div class="review-card">
+                <div class="review-profile">
+                    <img src="D:\juice\3d Rotate CSS Only\images\sripathy.jpeg" alt="Profile 3" class="profile-img">
+                    <h3>Sripathy</h3>
+                </div>
+                <div class="review-rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                </div>
+                <p>"7Up is the best lemon-lime soda out there. I drink it all the time – it never disappoints!"</p>
+            </div>
+    
+            <!-- Review Card 4 (Optional) -->
+            <div class="review-card">
+                <div class="review-profile">
+                    <img src="D:\juice\3d Rotate CSS Only\images\nandha.jpeg" alt="Profile 4" class="profile-img">
+                    <h3>Nandhakumar</h3>
+                </div>
+                <div class="review-rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9734;</span>
+                    <span class="star">&#9734;</span>
+                </div>
+                <p>"A refreshing and tasty drink. I enjoy it on hot days, and it's great with snacks!"</p>
+            </div>
+        </div>
+    </section>
+    <section class="contact-section" id="contact-section">
+        <div class="video-background">
+            <video autoplay muted loop>
+                <source src="D:\juice\3d Rotate CSS Only\images\1117503_Street_Man_3840x2160.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="POST">
+                <div class="input-field">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="input-field">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-field">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button class="button1" type="submit">Submit</button>
+
+            </form>
+        </div>
+    </section>
+    
+</body>
+
+
+</html>
